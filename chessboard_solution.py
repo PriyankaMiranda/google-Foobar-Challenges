@@ -22,10 +22,6 @@ def get_loc(val):
 			possible_moves.append(moves[i])	
 	return possible_moves
 
-
-
-
-
 def get_actions():
 	check=queue.pop(0)
 	level = check[2] + 1
@@ -33,16 +29,15 @@ def get_actions():
 	
 	if(check[0]==dest):
 		print(check)
-		
 		get_parent(check)
-		print(history)
+		print('Path:'+history)
+		print('Length of path:'+len(history-1))
 	else:
 		children = get_loc(check[0])
 		for child in children:
 			if(visited[child]):
 				continue
 			queue.append([child,check,level])
-
 		get_actions()
 
 def get_parent(child):
@@ -51,9 +46,6 @@ def get_parent(child):
 		return history
 	else:
 		return get_parent(child[1])
-
-
-
 
 
 if __name__ =='__main__':
