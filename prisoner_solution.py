@@ -1,5 +1,3 @@
-
-
 #Question link - https://github.com/rudisimo/google-foobar/blob/master/challenges/l1-prison-labor-dodgers.md
 
 #Answer-
