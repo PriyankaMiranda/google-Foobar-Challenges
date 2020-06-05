@@ -8,13 +8,10 @@ File and description is given below.<br />
 | ------------- | ------------- |
 | braille_solution.py  | text decoding  |
 | prisoner_solution.py  | list comparisons  |
-
-
-braille_solution.py &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- text decoding<br />
-prisoner_solution.py &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- list comparisons<br />
-binary_tree_solution.py &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- binary tree generation and iteration to get location<br />
-chessboard_solution.py &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- chessboard traversal algorithm<br />
-elevator_solution.py &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- list iteration, comparison<br />
+| binary_tree_solution.py  | binary tree generation, iteration  |
+| chessboard_solution.py  | chessboard traversal algorithm  |
+| elevator_solution.py  | list iteration, comparison  |
+| prisoner_solution.py  | list comparisons  |
 
 
 
